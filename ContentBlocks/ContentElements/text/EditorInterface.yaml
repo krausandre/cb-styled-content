@@ -1,0 +1,8 @@
+name: contentblocks/text
+prefixFields: false
+fields:
+  - identifier: header
+    useExistingField: true
+  - identifier: bodytext
+    useExistingField: true
+    enableRichtext: true

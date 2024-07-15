@@ -1,0 +1,57 @@
+{
+	"name": "contentblocks/cb_styled_content",
+	"type": "typo3-cms-extension",
+	"description": "TYPO3 CMS Content Blocks examples for fsc content types",
+	"license": ["GPL-2.0-or-later"],
+	"config": {
+		"vendor-dir": ".Build/vendor",
+		"bin-dir": ".Build/bin",
+		"sort-packages": true,
+		"allow-plugins": {
+			"typo3/class-alias-loader": true,
+			"typo3/cms-composer-installers": true
+		}
+	},
+	"require": {
+		"contentblocks/content-blocks": "^0.8.0",
+		"typo3/cms-adminpanel": "^13.2",
+		"typo3/cms-backend": "^13.2",
+		"typo3/cms-belog": "^13.2",
+		"typo3/cms-beuser": "^13.2",
+		"typo3/cms-core": "^13.2",
+		"typo3/cms-dashboard": "^13.2",
+		"typo3/cms-extbase": "^13.2",
+		"typo3/cms-extensionmanager": "^13.2",
+		"typo3/cms-filelist": "^13.2",
+		"typo3/cms-fluid": "^13.2",
+		"typo3/cms-fluid-styled-content": "^13.2",
+		"typo3/cms-form": "^13.2",
+		"typo3/cms-frontend": "^13.2",
+		"typo3/cms-impexp": "^13.2",
+		"typo3/cms-info": "^13.2",
+		"typo3/cms-install": "^13.2",
+		"typo3/cms-lowlevel": "^13.2",
+		"typo3/cms-opendocs": "^13.2",
+		"typo3/cms-recycler": "^13.2",
+		"typo3/cms-redirects": "^13.2",
+		"typo3/cms-reports": "^13.2",
+		"typo3/cms-rte-ckeditor": "^13.2",
+		"typo3/cms-scheduler": "^13.2",
+		"typo3/cms-seo": "^13.2",
+		"typo3/cms-setup": "^13.2",
+		"typo3/cms-tstemplate": "^13.2",
+		"typo3/cms-viewpage": "^13.2",
+		"typo3/minimal": "^13"
+	},
+	"extra": {
+		"typo3/cms": {
+			"web-dir": ".Build/public",
+			"extension-key": "cb_styled_content",
+			"Package": {
+				"serviceProvider": "TYPO3\\CMS\\ContentBlocks\\ServiceProvider"
+			}
+		}
+	},
+	"scripts": {
+	}
+}
