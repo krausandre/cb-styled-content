@@ -1,8 +1,14 @@
 name: contentblocks/textmedia
 prefixFields: false
+group: cb-styled-content
+basics:
+  - TYPO3/MediaTab
+  - TYPO3/Appearance
+  - TYPO3/Categories
 fields:
-  - identifier: header
-    useExistingField: true
+  - identifier: TYPO3/HeaderSection
+    type: Basic
   - identifier: bodytext
     useExistingField: true
     enableRichtext: true
+
