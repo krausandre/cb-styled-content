@@ -1,0 +1,31 @@
+identifier: TYPO3/MediaTab
+fields:
+  - identifier: mediatab
+    type: Tab
+    label: Media
+  - identifier: assets
+    useExistingField: true
+  - identifier: media_adjustments_tab
+    type: Palette
+    label: Media adjustments
+    fields:
+      - identifier: imagewidth
+        useExistingField: true
+      - identifier: imageheight
+        useExistingField: true
+      - identifier: imageborder
+        useExistingField: true
+  - identifier: gallery_settings_tab
+    type: Palette
+    label: Gallery settings
+    fields:
+      - identifier: imageorient
+        useExistingField: true
+      - identifier: imagecols
+        useExistingField: true
+  - identifier: behavior_tab
+    type: Palette
+    label: Behavior
+    fields:
+      - identifier: image_zoom
+        useExistingField: true
