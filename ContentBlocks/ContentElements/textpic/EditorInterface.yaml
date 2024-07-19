@@ -1,0 +1,14 @@
+name: contentblocks/textpic
+prefixFields: false
+group: cb-styled-content
+basics:
+  - TYPO3/ImagesTab
+  - TYPO3/Appearance
+  - TYPO3/Categories
+fields:
+  - identifier: TYPO3/HeaderSection
+    type: Basic
+  - identifier: bodytext
+    useExistingField: true
+    enableRichtext: true
+
