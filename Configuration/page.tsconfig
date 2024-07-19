@@ -1,7 +1,7 @@
 TCEFORM {
     tt_content {
         CType {
-            removeItems =
+            removeItems = header
         }
     }
 }
