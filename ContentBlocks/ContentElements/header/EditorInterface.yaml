@@ -1,0 +1,10 @@
+name: contentblocks/header
+prefixFields: false
+group: cb-styled-content
+basics:
+  - TYPO3/Appearance
+  - TYPO3/Categories
+fields:
+  - identifier: TYPO3/HeaderSection
+    type: Basic
+
