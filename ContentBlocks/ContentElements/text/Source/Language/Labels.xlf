@@ -4,13 +4,10 @@
 		<header/>
 		<body>
 			<trans-unit id="title" resname="title">
-				<source>Text</source>
+				<source>Regular Text Element</source>
 			</trans-unit>
 			<trans-unit id="description" resname="description">
-				<source>Simple text element</source>
-			</trans-unit>
-			<trans-unit id="header.label" resname="header.label">
-				<source>Header</source>
+				<source>A regular text element with header and bodytext fields.</source>
 			</trans-unit>
 		</body>
 	</file>
