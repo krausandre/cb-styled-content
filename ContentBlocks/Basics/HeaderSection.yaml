@@ -1,0 +1,23 @@
+identifier: TYPO3/HeaderSection
+fields:
+  - identifier: header_options
+    type: Palette
+    fields:
+      - identifier: header
+        useExistingField: true
+      - identifier: linebreak
+        type: Linebreak
+      - identifier: header_layout
+        useExistingField: true
+      - identifier: header_position
+        useExistingField: true
+      - identifier: date
+        useExistingField: true
+      - identifier: linebreak
+        type: Linebreak
+      - identifier: header_link
+        useExistingField: true
+      - identifier: linebreak
+        type: Linebreak
+      - identifier: subheader
+        useExistingField: true
